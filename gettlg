@@ -1,0 +1,3 @@
+token='565721119:AAEqtlBO6iMttLCCgf5E5mC9ENm8wRjEQS4'
+method="$1"
+curl "https://api.telegram.org/bot${token}/${method}"

@@ -1,0 +1,8 @@
+nowtime=$(date +"%s")
+time=$(date -d "$1" +"%s")
+#echo nowtime $nowtime
+#echo time $time
+#echo 1 $1
+let "rez+=time-nowtime"
+let "rez/=60"
+echo $rez min

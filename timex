@@ -1,0 +1,7 @@
+time=$(date -r $1 +"%s")
+nowtime=$(date +"%s")
+c=0
+let "c+=nowtime-time"
+let "c/=60"
+echo $c
+

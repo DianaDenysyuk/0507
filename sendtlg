@@ -1,0 +1,4 @@
+token='565721119:AAEqtlBO6iMttLCCgf5E5mC9ENm8wRjEQS4'
+chat_id='474331841'
+message="$1"
+curl -s -X POST "https://api.telegram.org/bot${token}/sendMessage" -d chat_id="$chat_id" -d text="$message"
